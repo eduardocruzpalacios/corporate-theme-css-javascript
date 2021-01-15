@@ -9,27 +9,126 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- estilos -->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/servicio.css">
+    <link rel="stylesheet" href="styles/resultados.css">
+    <link rel="stylesheet" href="styles/clientes.css">
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
 
-    <header class="container-fluid">header: logo empresa y lema</header>
+    <header class="container-fluid">
+    <!-- logo source: https://www.logologo.com/logo.php?id=306 -->
+        <div class="logo"><img src="img/b-logo.jpg" alt=""></div>
+        <h1 class="company">Nombre de la empresa</h1>
+    </header>
 
-    <nav class="container-fluid">nav sticky con links a sections</nav>
+    <nav class="container-fluid">
+        <ul>
+            <li><a href="" title="home"><i class="fas fa-home"></i></a></li>
+            <li><a href="" title="services"><i class="fas fa-space-shuttle"></i></a></li>
+            <li><a href="" title="clients"><i class="fas fa-tasks"></i></a></li>
+            <li><a href="" title="contact"><i class="far fa-envelope"></i></a></li>
+        </ul>
+    </nav>
 
-    <section class="container-fluid">vídeo de bg sin controls</section>
+    <section class="container-fluid">
     <!-- video source: https://www.pexels.com/video/digital-projection-of-the-earth-mass-in-blue-lights-3129957/ -->
+    <video src="video/video.mp4"></video>
+    </section>
 
-    <section class="container-fluid">qué hacemos, transformar, eliminación papel, procesos, img y texto</section>
+    <section class="container-fluid">
+
     <!-- img source: https://www.pexels.com/photo/aerial-air-air-force-aircraft-392024/ -->
+    <div><img src="img/pexels-lucky-cungwa-4549831.jpg" alt=""></div>
+    <div>
+        <h2>Servicios</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
+            dolor quis ea id, aut enim cum, rerum explicabo rem expedita, fuga asperiores facilis deleniti
+            quas.
+        </p>
+    </div>
 
-    <section class="container-fluid">resultados beneficios, texto e img</section>
+    </section>
+
+    <section class="container-fluid">
+
     <!-- img source: https://www.pexels.com/photo/blue-white-and-green-building-illustration-4549831/ -->
+    <div>
+        <h2>Tecnología</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
+            dolor quis ea id, aut enim cum, rerum explicabo rem expedita, fuga asperiores facilis deleniti
+            quas.
+        </p>
+    </div>
+    <div><img src="img/pexels-david-mcbee-392024.jpg" alt=""></div>
 
-    <section class="container-fluid">clientes, iconos que se mueven</section>
+    </section>
 
-    <section class="container-fluid">contacto, formulario izq + info der</section>
+    <section class="container-fluid">
+        
+        <h2>Clientes</h2>
 
-    <footer class="container-fluid">footer, columnas con links</footer>
-    
+    </section>
+
+    <section class="container-fluid">
+
+        <h2>Contacto</h2>
+
+        <article class="form">
+
+        </article>
+
+        <article class="map">
+
+        </article>
+
+        <article class="rrss">
+            
+        </article>
+
+    </section>
+
+    <footer class="container-fluid">
+        
+        <p>Info corporativa</p>
+        <ul>
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Organigrama</a></li>
+            <li><a href="#">Servicios</a></li>
+        </ul>
+
+        <p>Transparencia</p>
+        <ul>
+            <li><a href="#">Fiscalidad</a></li>
+            <li><a href="#">Financiación</a></li>
+            <li><a href="#">Inversión</a></li>
+        </ul>
+
+        <p>Términos y condiciones</p>
+        <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">¿Qué hacemos con los datos personales?</a></li>
+            <li><a href="#">Cookies</a></li>
+        </ul>
+
+        <p>Headquarters</p>
+        <ul>
+            <li><a href="#">Europa & Asia</a></li>
+            <li><a href="#">América</a></li>
+            <li><a href="#">África & Oceanía</a></li>
+        </ul>
+
+        <h3>Nombre de la empresa <i class="fas fa-copyright"></i> 2021</h3>
+
+    </footer>
+    <!-- JavaScript -->
+    <script src="main.js"></script>
 </body>
 </html>
