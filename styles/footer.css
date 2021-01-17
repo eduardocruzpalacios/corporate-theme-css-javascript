@@ -1,0 +1,64 @@
+footer {
+    background-color: var(--gris);
+    color: var(--blanco);
+    padding-top: 40px;
+}
+
+footer a {
+    color: var(--lila);
+    text-decoration: none;
+    font-size: 0.80rem;
+}
+
+footer a:hover {
+    color: var(--azul);
+    font-size: 1rem;
+    transition: font-size 1s;
+}
+
+footer p {
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+footer div.links-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    grid-gap: 40px;
+}
+
+footer div.links-container div ul {
+    list-style-type: none;
+}
+
+footer div.links-container div ul li {
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer h3 {
+    text-align: center;
+    padding: 40px 0;
+    letter-spacing: 2px;
+}
+
+/* MQ TABLET */
+
+@media (min-width: 650px) and (max-width: 992px) {
+    footer div.links-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+/* MQ PC */
+  
+@media (min-width: 993px) {
+    footer div.links-container {
+        grid-template-columns: auto auto auto auto;
+    }
+    footer div.links-container div ul li {
+        margin-left: 10px;
+        text-align: left;
+    }
+}

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corporate single web app built with Bootstrap 4</title>
-    <!-- instalar Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Corporate</title>
+    <meta name="author" content="Eduardo de la Cruz Palacios" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="copyright" content="Eduardo de la Cruz Palacios" />
+    <meta name="robots" content="index, follow" />
+    <!-- CANONICAL LINK -->
+    <link rel="canonical" href="https://www.educp92.000webhostapp.com/corporate/">
     <!-- estilos -->
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/nav.css">
@@ -18,18 +21,31 @@
     <link rel="stylesheet" href="styles/clientes.css">
     <link rel="stylesheet" href="styles/contacto.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- Google Fonts IBM Plex Sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <!-- Google Fonts IBM Plex Serif -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <!-- ANIMATIONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body>
+<body onload="typing()">
 
-    <header class="container-fluid">
-    <!-- logo source: https://www.logologo.com/logo.php?id=306 -->
-        <div class="logo"><img src="img/b-logo.jpg" alt=""></div>
-        <h1 class="company">Nombre de la empresa</h1>
+    <header>
+        <!-- video source: https://www.pexels.com/video/digital-projection-of-the-earth-mass-in-blue-lights-3129957/ -->
+        <video width="" height="" autoplay loop muted>
+            <source src="video/video.mp4" type="video/mp4">
+        </video>
+        <h1 id="hero"></h1>
+        <a href="#nav">
+            <i class="fas fa-angle-double-down"></i>
+        </a>
     </header>
 
-    <nav class="container-fluid">
+    <nav id="nav">
         <ul>
             <li><a href="" title="home"><i class="fas fa-home"></i></a></li>
             <li><a href="" title="services"><i class="fas fa-space-shuttle"></i></a></li>
@@ -38,12 +54,7 @@
         </ul>
     </nav>
 
-    <section class="container-fluid">
-    <!-- video source: https://www.pexels.com/video/digital-projection-of-the-earth-mass-in-blue-lights-3129957/ -->
-    <video src="video/video.mp4"></video>
-    </section>
-
-    <section class="container-fluid">
+    <section>
 
     <!-- img source: https://www.pexels.com/photo/aerial-air-air-force-aircraft-392024/ -->
     <div><img src="img/pexels-lucky-cungwa-4549831.jpg" alt=""></div>
@@ -57,7 +68,7 @@
 
     </section>
 
-    <section class="container-fluid">
+    <section>
 
     <!-- img source: https://www.pexels.com/photo/blue-white-and-green-building-illustration-4549831/ -->
     <div>
@@ -71,13 +82,13 @@
 
     </section>
 
-    <section class="container-fluid">
+    <section>
         
         <h2>Clientes</h2>
 
     </section>
 
-    <section class="container-fluid">
+    <section>
 
         <h2>Contacto</h2>
 
@@ -95,37 +106,49 @@
 
     </section>
 
-    <footer class="container-fluid">
-        
-        <p>Info corporativa</p>
-        <ul>
-            <li><a href="#">Historia</a></li>
-            <li><a href="#">Organigrama</a></li>
-            <li><a href="#">Servicios</a></li>
-        </ul>
+    <footer>
 
-        <p>Transparencia</p>
-        <ul>
-            <li><a href="#">Fiscalidad</a></li>
-            <li><a href="#">Financiación</a></li>
-            <li><a href="#">Inversión</a></li>
-        </ul>
+        <div class="links-container">
 
-        <p>Términos y condiciones</p>
-        <ul>
-            <li><a href="#">Política de privacidad</a></li>
-            <li><a href="#">¿Qué hacemos con los datos personales?</a></li>
-            <li><a href="#">Cookies</a></li>
-        </ul>
+            <div>
+                <p>Corporate</p>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Organigramme</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <p>Transparency</p>
+                <ul>
+                    <li><a href="#">Fiscality</a></li>
+                    <li><a href="#">Investment</a></li>
+                    <li><a href="#">Social impact</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <p>Terms & conditions</p>
+                <ul>
+                    <li><a href="#">Privacy polity</a></li>
+                    <li><a href="#">Personal data</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <p>Headquarters</p>
+                <ul>
+                    <li><a href="#">Europa & Asia</a></li>
+                    <li><a href="#">America</a></li>
+                    <li><a href="#">Africa & Oceany</a></li>
+                </ul>
+            </div>
 
-        <p>Headquarters</p>
-        <ul>
-            <li><a href="#">Europa & Asia</a></li>
-            <li><a href="#">América</a></li>
-            <li><a href="#">África & Oceanía</a></li>
-        </ul>
+        </div>
 
-        <h3>Nombre de la empresa <i class="fas fa-copyright"></i> 2021</h3>
+        <h3>Company's name <i class="fas fa-copyright"></i> 2021</h3>
 
     </footer>
     <!-- JavaScript -->

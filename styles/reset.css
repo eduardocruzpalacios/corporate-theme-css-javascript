@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 1; /* ajusta alto líneas ayudando geometría de espacios */
+    font-stretch: normal;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 100vw;
+}
+
+h1, h2, h3 {
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 2px;
+}
+
+/* colores */
+:root {
+--blanco: #fff;
+--negro: #000;
+--azul: #C7E8F3; /* Columbia Blue */
+--lila: #BF9ACA; /* Lilac */
+--lilaoscuro: #8E4162; /* Twilight Lavender */
+--gris: #41393E; /* Black Coffee */
+--rosa: #EDA2C0; /* Amaranth Pink */
+}
+
+nav, section, footer {
+    width: 100%;
+}
+
+section div img {
+    width: 10%;
+}
+
+/* MQ TABLET */
+
+@media (min-width: 650px) and (max-width: 992px) {
+  
+}
+
+/* MQ PC */
+  
+@media (min-width: 993px) {
+  
+}
