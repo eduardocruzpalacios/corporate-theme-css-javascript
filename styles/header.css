@@ -42,10 +42,3 @@ header a i.fas.fa-angle-double-down {
     margin: auto;
     font-size: 1.75rem;
 }
-
-
-/* MQ TABLET & PC */
-
-@media (min-width: 650px) {
-    
-}

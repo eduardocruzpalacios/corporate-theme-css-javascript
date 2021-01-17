@@ -1,0 +1,149 @@
+section.figures {
+    height: 100vh;
+    padding: 5vh;
+}
+
+section.figures div.container {
+    height: 100%;
+    position: relative;
+}
+
+section.figures div.container h2 {
+    text-align: center;
+    color: var(--gris);
+}
+
+section.figures div.container div.box {
+    position: absolute;
+    bottom: 1.5%;
+    height: 75vh;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 12px;
+    /* https://www.eggradients.com/ name: Calm Celebration*/
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+
+/* nave espacial */
+
+section.figures div.container div.box i.fa-space-shuttle {
+    color: var(--blanco);
+    font-size: 3rem;
+    position: relative;
+    top: 10%;
+    left: 40px;
+    animation: nave 3s infinite alternate linear, nave_x 4s infinite alternate;
+    z-index: 10;
+}
+
+/* cajas figures */
+
+section.figures div.container div.box div {
+    border: 3px solid var(--azul);
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+    color: var(--azul);
+    text-align: center;
+    position: absolute;
+}
+
+section.figures div.container div.box div.arribaizquierda {
+    top: 10%;
+    left: 10%;
+}
+
+section.figures div.container div.box div.arribaderecha {
+    top: 10%;
+    right: 10%;
+}
+
+section.figures div.container div.box div.abajoizquierda {
+    bottom: 10%;
+    left: 10%;
+}
+
+section.figures div.container div.box div.abajoderecha {
+    bottom: 10%;
+    right: 10%;
+}
+
+section.figures div.container div.box div i {
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+/* animaciones */
+
+@keyframes nave {
+    from {top: 20%;}
+    to {top: 80%;}
+}
+
+@keyframes nave_x {
+    0% {left: 20px;}
+    25% {left: 30%}
+    50% {left: 55%}
+    75% {left: 15%}
+    90% {left: 25%}
+}
+
+/* rain */
+img[src="star.svg"] {
+    position: fixed;
+    top: -1vh;
+    font-size: 2rem;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+    width: 12px;
+    height: 12px;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}
+
+/* MQ TABLET */
+
+@media (min-width: 650px) and (max-width: 992px) {
+    section.figures div.container div.box div.arribaizquierda {
+        left: 17.5%;
+    }
+    
+    section.figures div.container div.box div.arribaderecha {
+        right: 17.5%;
+    }
+    
+    section.figures div.container div.box div.abajoizquierda {
+        left: 17.5%;
+    }
+    
+    section.figures div.container div.box div.abajoderecha {
+        right: 17.5%;
+    }
+}
+
+/* MQ PC */
+
+@media (min-width: 993px) {
+    section.figures div.container div.box div.arribaizquierda {
+        left: 25%;
+    }
+    
+    section.figures div.container div.box div.arribaderecha {
+        right: 25%;
+    }
+    
+    section.figures div.container div.box div.abajoizquierda {
+        left: 25%;
+    }
+    
+    section.figures div.container div.box div.abajoderecha {
+        right: 25%;
+    }
+}

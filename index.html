@@ -13,15 +13,12 @@
     <!-- CANONICAL LINK -->
     <link rel="canonical" href="https://www.educp92.000webhostapp.com/corporate/">
     <!-- estilos -->
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/servicio.css">
-    <link rel="stylesheet" href="styles/resultados.css">
-    <link rel="stylesheet" href="styles/clientes.css">
-    <link rel="stylesheet" href="styles/contacto.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/figures.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/clients.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- Google Fonts IBM Plex Sans -->
@@ -32,7 +29,7 @@
     <!-- ANIMATIONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body onload="typing()">
+<body onload="typing()" onload="setInterval(createIcon, 300)">
 
     <header>
         <!-- video source: https://www.pexels.com/video/digital-projection-of-the-earth-mass-in-blue-lights-3129957/ -->
@@ -40,51 +37,109 @@
             <source src="video/video.mp4" type="video/mp4">
         </video>
         <h1 id="hero"></h1>
-        <a href="#nav">
+        <a href="#figures">
             <i class="fas fa-angle-double-down"></i>
         </a>
     </header>
 
-    <nav id="nav">
-        <ul>
-            <li><a href="" title="home"><i class="fas fa-home"></i></a></li>
-            <li><a href="" title="services"><i class="fas fa-space-shuttle"></i></a></li>
-            <li><a href="" title="clients"><i class="fas fa-tasks"></i></a></li>
-            <li><a href="" title="contact"><i class="far fa-envelope"></i></a></li>
-        </ul>
-    </nav>
+    <section class="figures" id="figures">
 
-    <section>
+        <div class="container">
 
-    <!-- img source: https://www.pexels.com/photo/aerial-air-air-force-aircraft-392024/ -->
-    <div><img src="img/pexels-lucky-cungwa-4549831.jpg" alt=""></div>
-    <div>
-        <h2>Servicios</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
-            dolor quis ea id, aut enim cum, rerum explicabo rem expedita, fuga asperiores facilis deleniti
-            quas.
-        </p>
-    </div>
+            <h2>Wanna see our figures?</h2>
 
-    </section>
+            <div class="box" id="lluvia">
+                <i class="fas fa-space-shuttle"></i>
 
-    <section>
+                <div class="arribaizquierda">
+                    <i class="fas fa-dollar-sign"></i>
+                    <p>27.4 billion done</p>
+                </div>
 
-    <!-- img source: https://www.pexels.com/photo/blue-white-and-green-building-illustration-4549831/ -->
-    <div>
-        <h2>Tecnología</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
-            dolor quis ea id, aut enim cum, rerum explicabo rem expedita, fuga asperiores facilis deleniti
-            quas.
-        </p>
-    </div>
-    <div><img src="img/pexels-david-mcbee-392024.jpg" alt=""></div>
+                <div class="arribaderecha">
+                    <i class="fas fa-users"></i>
+                    <p>+10k clients</p>
+                </div>
+                    
+                <div class="abajoizquierda">
+                    <i class="fas fa-lock"></i>
+                    <p>Privacy is a must</p>
+                </div>
+
+                <div class="abajoderecha">
+                    <i class="fas fa-check"></i>
+                    <p>Deadlines always met</p>
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
 
-    <section>
+    <section class="services">
+
+        <div class="container">
+
+            <h2>Services</h2>
+
+            <div class="img1">
+                <!-- img source: https://www.pexels.com/photo/blue-white-and-green-building-illustration-4549831/ -->
+                <img src="img/pexels-lucky-cungwa-4549831.jpg" alt="">
+            </div>
+            
+            <div class="noimg1">
+                <h3>Cutting-edge technology improving processes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
+                dolor quis ea id, aut enim cum, fuga asperiores facilis deleniti
+                quas.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services">
+
+        <div class="container">
+    
+            <h2>How do we work?</h2>
+
+                <div class="noimg2">
+                    <h3>Paying attention to detail is essential</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
+                    dolor quis ea id, aut enim cum, fuga asperiores facilis deleniti
+                    quas.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum
+                    </p>
+                </div>
+
+                <div class="img2">
+                    <!-- img source: https://www.pexels.com/photo/aerial-air-air-force-aircraft-392024/ -->
+                    <img src="img/pexels-david-mcbee-392024.jpg" alt="">
+                </div>
+    
+            </div>
+    
+        </section>
+
+    <section class="clients">
+
+        <div class="container">
+
+            <h2>Clientes</h2>
+
+            <div class="logos">
+
+            </div>
+
+        </div>
         
-        <h2>Clientes</h2>
+        
 
     </section>
 
@@ -140,7 +195,7 @@
             <div>
                 <p>Headquarters</p>
                 <ul>
-                    <li><a href="#">Europa & Asia</a></li>
+                    <li><a href="#">Europe & Asia</a></li>
                     <li><a href="#">America</a></li>
                     <li><a href="#">Africa & Oceany</a></li>
                 </ul>

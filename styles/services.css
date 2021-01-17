@@ -1,0 +1,99 @@
+section.services {
+    height: 100vh;
+    padding: 5vh;
+    background-color: var(--gris);
+    border-bottom: 1px solid var(--blanco);
+}
+
+section.services div.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+section.services div.container h2 {
+    text-align: center;
+    color: var(--blanco);
+    grid-column: 1 / span 5;
+}
+
+section.services div.container div.img1 {
+    border-radius: 12px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+section.services div.container div.noimg1 {
+    border-radius: 12px;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+section.services div.container div.img2 {
+    border-radius: 12px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+section.services div.container div.noimg2 {
+    border-radius: 12px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+section.services div.container div img {
+    width: 100%;
+    height: auto;
+}
+
+section.services img:hover {
+    opacity: 0.5;
+}
+
+section.services div.container div h3 {
+    text-align: center;
+    color: var(--lila);
+    font-size: 0.85rem;
+}
+
+section.services div.container div p {
+    text-align: center;
+    color: var(--blanco);
+    font-size: 0.85rem;
+    padding: 0.75rem;
+}
+
+/* MQ TABLET */
+
+@media (min-width: 650px) and (max-width: 992px) {
+    section.services div.container div h3 {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    
+    section.services div.container div p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    section.services div.container div.img1, section.services div.container div.img2 {
+        padding: 1.5rem;
+    }
+}
+
+/* MQ PC */
+  
+@media (min-width: 993px) {
+    section.services div.container div h3 {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+    
+    section.services div.container div p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    section.services div.container div.img1, section.services div.container div.img2 {
+        width: 50%;
+        margin: auto;
+    }
+}
