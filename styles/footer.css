@@ -57,8 +57,4 @@ footer h3 {
     footer div.links-container {
         grid-template-columns: auto auto auto auto;
     }
-    footer div.links-container div ul li {
-        margin-left: 10px;
-        text-align: left;
-    }
 }
