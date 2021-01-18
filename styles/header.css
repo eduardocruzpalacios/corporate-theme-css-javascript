@@ -12,11 +12,11 @@ header video {
 header h1#hero {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--blanco);
-    font-size: 2rem;
+    font-size: 0.75rem;
 }
 
 header a {
@@ -41,4 +41,22 @@ header a i.fas.fa-angle-double-down {
     color: var(--blanco);
     margin: auto;
     font-size: 1.75rem;
+}
+
+/* MQ TABLET */
+
+@media (min-width: 650px) and (max-width: 992px) {
+    header h1#hero {
+        font-size: 1.25rem;
+        top: 40%;
+    }
+}
+
+/* MQ PC */
+  
+@media (min-width: 993px) {
+    header h1#hero {
+        font-size: 2rem;
+        top: 50%;
+    }
 }

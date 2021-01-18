@@ -1,6 +1,7 @@
 section.services {
     background-color: var(--gris);
     padding: 2.5vh;
+    border-bottom: 2px solid var(--blanco);
 }
 
 section.services div.container h2 {
@@ -47,6 +48,10 @@ section.services div.container div div.flex p {
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
+    section.services {
+        padding: 10vh;
+    }
+
     section.services div.container div div.flex img {
         width: 35%;
     }
@@ -55,6 +60,10 @@ section.services div.container div div.flex p {
 /* MQ PC */
   
 @media (min-width: 993px) {
+    section.services {
+        padding: 7.5vh;
+    }
+
     section.services div.container div div.flex img {
         width: 30%;
     }

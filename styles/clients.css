@@ -1,6 +1,7 @@
 section.clients {
     height: 50vh;
     padding: 2.5vh;
+    border-bottom: 2px solid var(--gris);
 }
 
 section.clients div.container {

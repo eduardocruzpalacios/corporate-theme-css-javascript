@@ -43,12 +43,12 @@ section.figures div.container div.box i.fa-space-shuttle {
 
 section.figures div.container div.box div {
     border: 2px solid var(--azul);
-    width: 72px;
-    height: 72px;
-    padding: 0.125rem;
+    width: 82px;
+    height: 82px;
     color: var(--azul);
     text-align: center;
     position: absolute;
+    padding: 0.125rem;
 }
 
 section.figures div.container div.box div.arribaizquierda {
@@ -72,12 +72,12 @@ section.figures div.container div.box div.abajoderecha {
 }
 
 section.figures div.container div.box div i {
-    font-size: 0.75rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.65rem;
+    margin-bottom: 0.65rem;
 }
 
 section.figures div.container div.box div p {
-    font-size: 0.6rem;
+    font-size: 0.65rem;
 }
 
 /* animaciones */
@@ -119,15 +119,15 @@ img[src="star.svg"] {
         border: 3px solid var(--azul);
         width: 132px;
         height: 132px;
-        padding: 0.5rem;
+        padding: 0.25rem;
     }
     section.figures div.container div.box div i {
-        font-size: 2em;
-        margin-bottom: 0.75rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
 
     section.figures div.container div.box div p {
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     section.figures div.container div.box div.arribaizquierda {
@@ -161,12 +161,12 @@ img[src="star.svg"] {
         padding: 0.5rem;
     }
     section.figures div.container div.box div i {
-        font-size: 2em;
-        margin-bottom: 0.75rem;
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
     }
 
     section.figures div.container div.box div p {
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     section.figures div.container div.box div.arribaizquierda {
