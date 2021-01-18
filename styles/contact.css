@@ -1,0 +1,128 @@
+section.contact {
+    padding: 2.5vh;
+}
+
+section.contact h2 {
+    text-align: center;
+    color: var(--gris);
+    margin-bottom: 2.5vh;
+}
+
+section.contact ul {
+    list-style-type: none;
+}
+
+section.contact div.content {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    box-shadow: 0 0 10px 0 var(--negro);
+}
+
+section.contact div.content div.contact-form {
+    grid-column: 1 / span 5;
+    padding: 1rem;
+    background-color: var(--lila);
+    color: var(--blanco);
+}
+
+section.contact div.content div.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.contact div.content div.contact-form form p {
+    padding: 0.75rem;
+}
+
+section.contact div.content div.contact-form form p label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+section.contact div.content div.contact-form form p input,
+section.contact div.content div.contact-form form p textarea,
+section.contact div.content div.contact-form form p button {
+    width: 100%;
+}
+
+section.contact div.content div.contact-form form p input,
+section.contact div.content div.contact-form form p textarea {
+    background-color: transparent;
+    color: var(--blanco);
+    border: 2px solid transparent;
+    border-bottom: 2px solid var(--gris);
+    outline: none;
+    padding: 0.5rem;
+}
+
+section.contact div.content div.contact-form form p input:focus,
+section.contact div.content div.contact-form form p textarea:focus {
+    background-color: var(--gris);
+    color: var(--blanco);
+    border: 2px solid var(--blanco);
+}
+
+section.contact div.content div.contact-form form p button {
+    border-radius: 12px;
+    border: 2px transparent solid;
+    padding: 0.5rem;
+    color: var(--gris);
+}
+
+section.contact div.content div.contact-form form p button:hover {
+    border: 2px var(--blanco) solid;
+    background-color: var(--gris);
+    color: var(--blanco);
+    transition: color 1s ease-in-out, background-color 1s ease-in-out;
+}
+
+section.contact div.content div.contact-form form p.block {
+    grid-column: 1 / 3;
+}
+
+section.contact div.content div.contact-info {
+    grid-column: 1 / span 5;
+    padding: 1rem;
+    background-color: var(--azul);
+    color: var(--gris);
+}
+
+section.contact div.content div.contact-info h3 {
+    text-align: center;
+}
+
+section.contact div.content div.contact-info p {
+    margin-top: 1rem;
+}
+
+section.contact div.content div.contact-info li {
+    margin-top: 1rem;
+}
+
+/* MQ TABLET & PC */
+
+@media (min-width: 700px) {
+    section.contact {
+        padding: 5vh;
+    }
+    
+    section.contact h2 {
+        margin-bottom: 5vh;
+    }
+
+    section.contact div.content div.contact-form {
+        grid-column: 1 / 4;
+    }
+    
+    section.contact div.content div.contact-info {
+        grid-column: 4 / 6;
+    }
+    
+    section.contact div.content div.contact-info p {
+        margin-top: 1rem;
+    }
+    
+    section.contact div.content div.contact-info li {
+        margin-top: 1rem;
+    }
+}

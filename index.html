@@ -13,12 +13,14 @@
     <!-- CANONICAL LINK -->
     <link rel="canonical" href="https://www.educp92.000webhostapp.com/corporate/">
     <!-- estilos -->
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/figures.css">
-    <link rel="stylesheet" href="styles/services.css">
-    <link rel="stylesheet" href="styles/clients.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/figures.css">
+    <link rel="stylesheet" type="text/css" href="styles/services.css">
+    <link rel="stylesheet" type="text/css" href="styles/clients.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/hidehost.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- Google Fonts IBM Plex Sans -->
@@ -94,8 +96,6 @@
                 dolor quis ea id, aut enim cum, fuga asperiores facilis deleniti
                 quas.
                 </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum
-                </p>
             </div>
 
         </div>
@@ -113,8 +113,6 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
                     dolor quis ea id, aut enim cum, fuga asperiores facilis deleniti
                     quas.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum
                     </p>
                 </div>
 
@@ -134,30 +132,71 @@
             <h2>Clientes</h2>
 
             <div class="logos">
-
+                <i class="fas fa-gem"></i>
+                <i class="fas fa-fire"></i>
+                <i class="fas fa-hammer"></i>
+                <i class="fas fa-tree"></i>
             </div>
 
         </div>
-        
-        
 
     </section>
 
-    <section>
+    <section class="contact">
 
-        <h2>Contacto</h2>
+        <h2>Contact</h2>
 
-        <article class="form">
+        <div class="content">
 
-        </article>
+                <div class="contact-form">
 
-        <article class="map">
+                    <form action="">
+                        <p>
+                            <label>FullName</label>
+                            <input type="text" name="fullname">
+                        </p>
 
-        </article>
+                        <p>
+                            <label>Email Adress</label>
+                            <input type="email" name="email">
+                        </p>
 
-        <article class="rrss">
-            
-        </article>
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="tel" name="phone">
+                        </p>
+
+                        <p>
+                            <label>Affair</label>
+                            <input type="text" name="affair">
+                        </p>
+
+                        <p class="block">
+                           <label>Message</label> 
+                            <textarea name="message" rows="3"></textarea>
+                        </p>
+
+                        <p class="block">
+                            <button>SEND</button>
+                        </p>
+
+                    </form>
+
+                </div>
+
+                <div class="contact-info">
+                    <h3>More Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Castella Street</li>
+                        <li><i class="fas fa-phone"></i> (+34) 123 456 789</li>
+                        <li><i class="fas fa-envelope-open-text"></i> contact@company.es</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+                </div>
+
+            </div>
+    
+        </div>
 
     </section>
 

@@ -42,38 +42,42 @@ section.figures div.container div.box i.fa-space-shuttle {
 /* cajas figures */
 
 section.figures div.container div.box div {
-    border: 3px solid var(--azul);
-    width: 150px;
-    height: 150px;
-    padding: 1rem;
+    border: 2px solid var(--azul);
+    width: 68px;
+    height: 68px;
+    padding: 0.25rem;
     color: var(--azul);
     text-align: center;
     position: absolute;
 }
 
 section.figures div.container div.box div.arribaizquierda {
-    top: 10%;
+    top: 20%;
     left: 10%;
 }
 
 section.figures div.container div.box div.arribaderecha {
-    top: 10%;
+    top: 20%;
     right: 10%;
 }
 
 section.figures div.container div.box div.abajoizquierda {
-    bottom: 10%;
+    bottom: 20%;
     left: 10%;
 }
 
 section.figures div.container div.box div.abajoderecha {
-    bottom: 10%;
+    bottom: 20%;
     right: 10%;
 }
 
 section.figures div.container div.box div i {
-    font-size: 2em;
-    margin-bottom: 1rem;
+    font-size: 0.75em;
+    margin-bottom: 0.25rem;
+}
+
+section.figures div.container div.box div p {
+    font-size: 0.5em;
 }
 
 /* animaciones */
@@ -111,39 +115,77 @@ img[src="star.svg"] {
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
+    section.figures div.container div.box div {
+        border: 3px solid var(--azul);
+        width: 132px;
+        height: 132px;
+        padding: 0.5rem;
+    }
+    section.figures div.container div.box div i {
+        font-size: 2em;
+        margin-bottom: 0.75rem;
+    }
+
+    section.figures div.container div.box div p {
+        font-size: 1em;
+    }
+
     section.figures div.container div.box div.arribaizquierda {
-        left: 17.5%;
+        top: 15%;
+        left: 15%;
     }
     
     section.figures div.container div.box div.arribaderecha {
-        right: 17.5%;
+        top: 15%;
+        right: 15%;
     }
     
     section.figures div.container div.box div.abajoizquierda {
-        left: 17.5%;
+        bottom: 15%;
+        left: 15%;
     }
     
     section.figures div.container div.box div.abajoderecha {
-        right: 17.5%;
+        bottom: 15%;
+        right: 15%;
     }
 }
 
 /* MQ PC */
 
 @media (min-width: 993px) {
+    section.figures div.container div.box div {
+        border: 3px solid var(--azul);
+        width: 132px;
+        height: 132px;
+        padding: 0.5rem;
+    }
+    section.figures div.container div.box div i {
+        font-size: 2em;
+        margin-bottom: 0.75rem;
+    }
+
+    section.figures div.container div.box div p {
+        font-size: 1em;
+    }
+
     section.figures div.container div.box div.arribaizquierda {
+        top: 15%;
         left: 25%;
     }
     
     section.figures div.container div.box div.arribaderecha {
+        top: 15%;
         right: 25%;
     }
     
     section.figures div.container div.box div.abajoizquierda {
+        bottom: 15%;
         left: 25%;
     }
     
     section.figures div.container div.box div.abajoderecha {
+        bottom: 15%;
         right: 25%;
     }
 }
