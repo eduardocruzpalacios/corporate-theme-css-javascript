@@ -43,9 +43,9 @@ section.figures div.container div.box i.fa-space-shuttle {
 
 section.figures div.container div.box div {
     border: 2px solid var(--azul);
-    width: 68px;
-    height: 68px;
-    padding: 0.25rem;
+    width: 72px;
+    height: 72px;
+    padding: 0.125rem;
     color: var(--azul);
     text-align: center;
     position: absolute;
@@ -72,12 +72,12 @@ section.figures div.container div.box div.abajoderecha {
 }
 
 section.figures div.container div.box div i {
-    font-size: 0.75em;
-    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 section.figures div.container div.box div p {
-    font-size: 0.5em;
+    font-size: 0.6rem;
 }
 
 /* animaciones */

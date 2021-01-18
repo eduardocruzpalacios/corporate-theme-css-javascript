@@ -1,188 +1,61 @@
 section.services {
-    height: 100vh;
     background-color: var(--gris);
-    border-bottom: 1px solid var(--blanco);
-}
-
-section.services div.container {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
     padding: 2.5vh;
 }
 
 section.services div.container h2 {
     text-align: center;
     color: var(--blanco);
-    grid-column: 1 / span 4;
+    margin-bottom: 2.5vh;
 }
 
-section.services div.container div img {
-    width: 100%;
-    border-radius: 12px;
-}
-
-section.services img:hover {
-    opacity: 0.5;
-}
-
-section.services div.container div.img1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    margin-right: 2.5vh;
-}
-
-section.services div.container div.noimg1 {
-    border-radius: 12px;
-    grid-column-start: 3;
-    grid-column-end: 5;
+section.services div.container div {
     background-color: var(--blanco);
-    box-shadow: 4px 4px 4px 4px rgb(0,0,0,0.3);
-    padding: 0.5rem;
-    height: 65%;
-}
-
-section.services div.container div.noimg2 {
     border-radius: 12px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: var(--blanco);
-    box-shadow: 4px 4px 4px 4px rgb(0,0,0,0.3);
-    padding: 0.5rem;
-    height: 65%;
-
+    padding: 1rem;
 }
-
-section.services div.container div.img2 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    margin-left: 2.5vh;
-}
-
 
 section.services div.container div h3 {
     text-align: center;
     color: var(--lila);
-    font-size: 0.65rem;
+    margin-bottom: 1rem;
 }
 
-section.services div.container div p {
+section.services div.container div div.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+section.services div.container div div.flex img {
+    width: 50%;
+    border-radius: 12px;
+    padding: 0.5rem;
+}
+
+section.services div div.flex img:hover {
+    opacity: 0.5;
+}
+
+section.services div.container div div.flex p {
     text-align: center;
     color: var(--gris);
-    font-size: 0.65rem;
-    margin-top: 20px;
+    padding: 0.5rem;
 }
 
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    section.services div.container {
-        grid-template-columns: 20% 20% 20% 20% 20%;
-        justify-items: center;
-        align-items: center;
-        padding: 0;
-    }
-    
-    section.services div.container h2 {
-        grid-column: 1 / span 5;
-    }
-
-    section.services div.container div {
-        grid-column: 1 / span 5;
-        width: 75%;
-    }
-    
-    section.services div.container div.img1 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        margin: 0;
-        text-align: center;
-    }
-    
-    section.services div.container div.noimg1 {
-        grid-column-start: 4;
-        grid-column-end: 6;
-        padding: 0.75rem;
-        height: 75%;
-    }
-    
-    section.services div.container div.noimg2 {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        padding: 0.75rem;
-        height: 75%;
-    
-    }
-    
-    section.services div.container div.img2 {
-        grid-column-start: 3;
-        grid-column-end: 6;
-        margin: 0;
-    }
-    
-    section.services div.container div h3 {
-        font-size: 1rem;
-    }
-    
-    section.services div.container div p {
-        font-size: 0.9rem;
-        margin-top: 30px;
+    section.services div.container div div.flex img {
+        width: 35%;
     }
 }
 
 /* MQ PC */
   
 @media (min-width: 993px) {
-    section.services div.container {
-        grid-template-columns: 20% 20% 20% 20% 20%;
-        justify-items: center;
-        align-items: center;
-        padding: 0;
-    }
-    
-    section.services div.container h2 {
-        grid-column: 1 / span 5;
-    }
-
-    section.services div.container div {
-        grid-column: 1 / span 5;
-        width: 60%;
-    }
-    
-    section.services div.container div.img1 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        margin: 0;
-        text-align: center;
-    }
-    
-    section.services div.container div.noimg1 {
-        grid-column-start: 4;
-        grid-column-end: 6;
-        padding: 1em;
-        height: 75%;
-    }
-    
-    section.services div.container div.noimg2 {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        padding: 1rem;
-        height: 75%;
-    
-    }
-    
-    section.services div.container div.img2 {
-        grid-column-start: 3;
-        grid-column-end: 6;
-        margin: 0;
-    }
-    
-    section.services div.container div h3 {
-        font-size: 1rem;
-    }
-    
-    section.services div.container div p {
-        font-size: 1rem;
-        margin-top: 30px;
+    section.services div.container div div.flex img {
+        width: 30%;
     }
 }

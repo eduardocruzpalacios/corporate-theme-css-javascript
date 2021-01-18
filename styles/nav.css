@@ -31,7 +31,7 @@ nav ul.overlay-content {
 }
 
 nav ul li {
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 nav a {
@@ -47,5 +47,5 @@ nav a:hover {
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: 5rem;
   }
