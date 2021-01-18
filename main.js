@@ -42,3 +42,13 @@ function createIcon()
 }
 // set time for our function to be executed
 setInterval(createIcon, 70);
+
+// nav menu
+
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}

@@ -38,8 +38,8 @@ section.services div.container div.noimg1 {
     grid-column-end: 5;
     background-color: var(--blanco);
     box-shadow: 4px 4px 4px 4px rgb(0,0,0,0.3);
-    padding: 0.25rem;
-    height: 75%;
+    padding: 0.5rem;
+    height: 65%;
 }
 
 section.services div.container div.noimg2 {
@@ -48,8 +48,8 @@ section.services div.container div.noimg2 {
     grid-column-end: 3;
     background-color: var(--blanco);
     box-shadow: 4px 4px 4px 4px rgb(0,0,0,0.3);
-    padding: 0.25rem;
-    height: 80%;
+    padding: 0.5rem;
+    height: 65%;
 
 }
 
@@ -110,7 +110,7 @@ section.services div.container div p {
         grid-column-start: 1;
         grid-column-end: 3;
         padding: 0.75rem;
-        height: 80%;
+        height: 75%;
     
     }
     
@@ -159,15 +159,15 @@ section.services div.container div p {
     section.services div.container div.noimg1 {
         grid-column-start: 4;
         grid-column-end: 6;
-        padding: 1.25rem;
-        height: 80%;
+        padding: 1em;
+        height: 75%;
     }
     
     section.services div.container div.noimg2 {
         grid-column-start: 1;
         grid-column-end: 3;
-        padding: 1.25rem;
-        height: 80%;
+        padding: 1rem;
+        height: 75%;
     
     }
     
@@ -178,7 +178,7 @@ section.services div.container div p {
     }
     
     section.services div.container div h3 {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     section.services div.container div p {
