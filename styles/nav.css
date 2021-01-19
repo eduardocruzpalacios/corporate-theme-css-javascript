@@ -28,6 +28,7 @@ nav ul.overlay-content {
     text-align: center;
     margin-top: 30px;
     font-size: 1.5rem;
+    list-style-type: none;
 }
 
 nav ul li {
