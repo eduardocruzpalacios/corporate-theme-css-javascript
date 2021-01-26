@@ -52,6 +52,14 @@ section.services div.container div div.flex p {
         padding: 10vh;
     }
 
+    section.services div.container h2 {
+        margin-bottom: 10vh;
+    }
+
+    section.services div.container div h3 {
+        margin-bottom: 1.5rem;
+    }
+
     section.services div.container div div.flex img {
         width: 35%;
     }
@@ -61,7 +69,15 @@ section.services div.container div div.flex p {
   
 @media (min-width: 993px) {
     section.services {
-        padding: 7.5vh;
+        padding: 15vh;
+    }
+
+    section.services div.container h2 {
+        margin-bottom: 15vh;
+    }
+
+    section.services div.container div h3 {
+        margin-bottom: 2rem;
     }
 
     section.services div.container div div.flex img {

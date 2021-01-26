@@ -120,9 +120,28 @@ section.contact div.content div.contact-info li {
     
     section.contact div.content div.contact-info p {
         margin-top: 1rem;
+        font-size: .8rem;
     }
     
     section.contact div.content div.contact-info li {
         margin-top: 1rem;
+        font-size: .8rem;
+    }
+}
+
+/* MQ PC */
+  
+@media (min-width: 993px) {
+    section.contact div.content div.contact-form form p, section.contact input,
+    section.contact textarea, section.contact button {
+        font-size: 1.125rem;
+    }
+
+    section.contact div.content div.contact-info p {
+        font-size: 1.125rem;
+    }
+    
+    section.contact div.content div.contact-info li {
+        font-size: 1.125rem;
     }
 }

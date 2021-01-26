@@ -33,7 +33,7 @@ header a {
 }
 
 header a:hover {
-    top: 90%;
+    top: 87.5%;
     transition: top 2s;
 }
 

@@ -24,7 +24,7 @@ section.clients div.container div.logos {
 }
 
 section.clients div.container div.logos i {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--lila);
     cursor: pointer;
 }
