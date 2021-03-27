@@ -2,6 +2,7 @@ section.clients {
     height: 50vh;
     padding: 2.5vh;
     border-bottom: 2px solid var(--gris);
+    background-color: var(--blanco);
 }
 
 section.clients div.container {
@@ -47,5 +48,12 @@ section.clients div.container div.logos i:hover {
 @media (min-width: 993px) {
     section.clients div.container div.logos i {
         font-size: 5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    section.clients {
+        width: 1280px;
+        margin: 0 auto;
     }
 }

@@ -12,11 +12,11 @@ header video {
 header h1#hero {
     text-align: center;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--blanco);
-    font-size: 0.75rem;
+    font-size: 26px;
 }
 
 header a {
@@ -24,7 +24,7 @@ header a {
     width: 64px;
     height: 64px;
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: solid var(--blanco) 2px;
@@ -33,7 +33,7 @@ header a {
 }
 
 header a:hover {
-    top: 87.5%;
+    top: 77%;
     transition: top 2s;
 }
 
@@ -47,7 +47,7 @@ header a i.fas.fa-angle-double-down {
 
 @media (min-width: 650px) and (max-width: 992px) {
     header h1#hero {
-        font-size: 1.25rem;
+        font-size: 32px;
         top: 40%;
     }
 }
@@ -56,7 +56,7 @@ header a i.fas.fa-angle-double-down {
   
 @media (min-width: 993px) {
     header h1#hero {
-        font-size: 2rem;
+        font-size: 36px;
         top: 50%;
     }
 }

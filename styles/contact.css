@@ -1,5 +1,6 @@
 section.contact {
     padding: 2.5vh;
+    background-color: var(--blanco);
 }
 
 section.contact h2 {
@@ -143,5 +144,12 @@ section.contact div.content div.contact-info li {
     
     section.contact div.content div.contact-info li {
         font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    section.contact {
+        width: 1280px;
+        margin: 0 auto;
     }
 }

@@ -13,26 +13,29 @@ section.services div.container h2 {
 section.services div.container div {
     background-color: var(--blanco);
     border-radius: 12px;
-    padding: 1rem;
+    padding: .9rem;
 }
 
 section.services div.container div h3 {
     text-align: center;
     color: var(--lila);
-    margin-bottom: 1rem;
+    margin-bottom: .9rem;
 }
 
 section.services div.container div div.flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    overflow: hidden;
     padding: 0;
 }
 
 section.services div.container div div.flex img {
+    float: left;
     width: 50%;
     border-radius: 12px;
-    padding: 0.5rem;
+    padding: .5rem;
+}
+
+section.services div.container div div.flex img.derecha {
+    float: right;
 }
 
 section.services div div.flex img:hover {
@@ -40,9 +43,8 @@ section.services div div.flex img:hover {
 }
 
 section.services div.container div div.flex p {
-    text-align: center;
     color: var(--gris);
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
 /* MQ TABLET */
@@ -60,8 +62,19 @@ section.services div.container div div.flex p {
         margin-bottom: 1.5rem;
     }
 
+    section.services div.container div div.flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
     section.services div.container div div.flex img {
-        width: 35%;
+        width: 50%;
+    }
+
+    section.services div.container div div.flex p {
+        font-size: 24px;
     }
 }
 
@@ -80,7 +93,25 @@ section.services div.container div div.flex p {
         margin-bottom: 2rem;
     }
 
-    section.services div.container div div.flex img {
-        width: 30%;
+    section.services div.container div div.flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    section.services div.container div div.flex p {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1280px) {
+    section.services {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    section.services div.container div div.flex p {
+        font-size: 32px;
     }
 }
