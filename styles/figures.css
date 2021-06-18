@@ -87,16 +87,35 @@ section.figures div.container div.box div p {
 /* animaciones */
 
 @keyframes nave {
-    from {top: 20%;}
-    to {top: 80%;}
+    from {
+        top: 20%;
+    }
+
+    to {
+        top: 80%;
+    }
 }
 
 @keyframes nave_x {
-    0% {left: 20px;}
-    25% {left: 30%}
-    50% {left: 55%}
-    75% {left: 15%}
-    90% {left: 25%}
+    0% {
+        left: 20px;
+    }
+
+    25% {
+        left: 30%
+    }
+
+    50% {
+        left: 55%
+    }
+
+    75% {
+        left: 15%
+    }
+
+    90% {
+        left: 25%
+    }
 }
 
 /* rain */
@@ -125,6 +144,7 @@ img[src="star.svg"] {
         height: 132px;
         padding: 0.25rem;
     }
+
     section.figures div.container div.box div i {
         font-size: 2rem;
         margin-bottom: 1rem;
@@ -138,17 +158,17 @@ img[src="star.svg"] {
         top: 15%;
         left: 15%;
     }
-    
+
     section.figures div.container div.box div.arribaderecha {
         top: 15%;
         right: 15%;
     }
-    
+
     section.figures div.container div.box div.abajoizquierda {
         bottom: 15%;
         left: 15%;
     }
-    
+
     section.figures div.container div.box div.abajoderecha {
         bottom: 15%;
         right: 15%;
@@ -164,6 +184,7 @@ img[src="star.svg"] {
         height: 132px;
         padding: 0.5rem;
     }
+
     section.figures div.container div.box div i {
         font-size: 2rem;
         margin-bottom: 1.25rem;
@@ -177,17 +198,17 @@ img[src="star.svg"] {
         top: 15%;
         left: 25%;
     }
-    
+
     section.figures div.container div.box div.arribaderecha {
         top: 15%;
         right: 25%;
     }
-    
+
     section.figures div.container div.box div.abajoizquierda {
         bottom: 15%;
         left: 25%;
     }
-    
+
     section.figures div.container div.box div.abajoderecha {
         bottom: 15%;
         right: 25%;

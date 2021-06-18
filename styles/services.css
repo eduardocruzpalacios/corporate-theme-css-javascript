@@ -79,7 +79,7 @@ section.services div.container div div.flex p {
 }
 
 /* MQ PC */
-  
+
 @media (min-width: 993px) {
     section.services {
         padding: 15vh;

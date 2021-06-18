@@ -44,7 +44,7 @@ section.clients div.container div.logos i:hover {
 }
 
 /* MQ PC */
-  
+
 @media (min-width: 993px) {
     section.clients div.container div.logos i {
         font-size: 5rem;

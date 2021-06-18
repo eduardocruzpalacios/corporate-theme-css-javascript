@@ -7,6 +7,7 @@ body i.fas.fa-bars.fa-3x {
     z-index: 10;
     cursor: pointer;
 }
+
 /* la capa del nav */
 nav.overlay {
     height: 100%;
@@ -15,11 +16,12 @@ nav.overlay {
     z-index: 100;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
 }
+
 /* el contenido de la capa del nav*/
 nav ul.overlay-content {
     position: relative;
@@ -43,10 +45,11 @@ nav a {
 nav a:hover {
     color: var(--blanco);
 }
+
 /* el botón que cierra el nav */
 .overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 5rem;
-  }
+}

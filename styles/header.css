@@ -53,7 +53,7 @@ header a i.fas.fa-angle-double-down {
 }
 
 /* MQ PC */
-  
+
 @media (min-width: 993px) {
     header h1#hero {
         font-size: 36px;

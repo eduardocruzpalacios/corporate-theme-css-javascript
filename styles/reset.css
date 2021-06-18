@@ -3,27 +3,31 @@
     border: 0;
     padding: 0;
     margin: 0;
-    line-height: 1; /* ajusta alto líneas ayudando geometría de espacios */
+    line-height: 1;
+    /* ajusta alto líneas ayudando geometría de espacios */
     font-stretch: normal;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
     background-color: #cccccc;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'IBM Plex Serif', serif;
     letter-spacing: 2px;
 }
 
 /* colores */
 :root {
---blanco: #fff;
---negro: #000;
---azul: #C7E8F3;
---lila: #BF9ACA;
---gris: #41393E;
+    --blanco: #fff;
+    --negro: #000;
+    --azul: #C7E8F3;
+    --lila: #BF9ACA;
+    --gris: #41393E;
 }
 
 /* scroll bar style source: https://css-tricks.com/ */
@@ -39,19 +43,19 @@ html {
     width: 16px;
     height: 16px;
 }
-  
+
 /* color de (track) barra por donde se desliza el handle */
 ::-webkit-scrollbar-track {
-    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+    background: linear-gradient(90deg, #434343, #434343 1px, #111 0, #111);
 }
-   
+
 /* handle */
 ::-webkit-scrollbar-thumb {
     background: #434343;
     border-radius: 16px;
-    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25);
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
 }
-  
+
 /* handle en hover */
 ::-webkit-scrollbar-thumb:hover {
     opacity: 0.5;
@@ -59,12 +63,8 @@ html {
 
 /* MQ TABLET */
 
-@media (min-width: 650px) and (max-width: 992px) {
-  
-}
+@media (min-width: 650px) and (max-width: 992px) {}
 
 /* MQ PC */
-  
-@media (min-width: 993px) {
-  
-}
+
+@media (min-width: 993px) {}

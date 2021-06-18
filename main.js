@@ -3,25 +3,22 @@ var i = 0;
 var txt = 'Let us show you how we unleash knowledge unlimited power';
 var speed = 100;
 
-function typing()
-{
-    if (i < txt.length)
-    {
+function typing() {
+    if (i < txt.length) {
         document.getElementById("hero").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typing, speed);
     }
-};
+}
 
 /* LLUVIA ICONOS */
 
 // do a function (what happens when called)
-function createIcon()
-{
+function createIcon() {
     // constant box = to create img element
     const box = document.createElement("img");
     // make img have src="shield.svg" attribute
-    box.setAttribute("src","star.svg");
+    box.setAttribute("src", "star.svg");
 
     box.style.position = "absolute";
 

@@ -52,7 +52,7 @@ footer h3 {
 }
 
 /* MQ PC */
-  
+
 @media (min-width: 993px) {
     footer div.links-container {
         grid-template-columns: auto auto auto auto;
