@@ -1,21 +1,21 @@
-section.clients {
+.clients {
     height: 50vh;
     padding: 2.5vh;
-    border-bottom: 2px solid var(--gris);
-    background-color: var(--blanco);
+    border-bottom: 2px solid var(--grey);
+    background-color: var(--white);
 }
 
-section.clients div.container {
+.clients .container {
     height: 100%;
     position: relative;
 }
 
-section.clients div.container h2 {
+.clients h2 {
     text-align: center;
-    color: var(--gris);
+    color: var(--grey);
 }
 
-section.clients div.container div.logos {
+.clients .icons {
     height: 100%;
     width: 100%;
     display: flex;
@@ -24,21 +24,21 @@ section.clients div.container div.logos {
     align-items: center;
 }
 
-section.clients div.container div.logos i {
+.clients i {
     font-size: 2.5rem;
-    color: var(--lila);
+    color: var(--purple);
     cursor: pointer;
 }
 
-section.clients div.container div.logos i:hover {
-    color: var(--azul);
+.clients i:hover {
+    color: var(--blue);
     transition: color 1s ease-in-out;
 }
 
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    section.clients div.container div.logos i {
+    .clients i {
         font-size: 3.5rem;
     }
 }
@@ -46,13 +46,13 @@ section.clients div.container div.logos i:hover {
 /* MQ PC */
 
 @media (min-width: 993px) {
-    section.clients div.container div.logos i {
+    .clients i {
         font-size: 5rem;
     }
 }
 
 @media (min-width: 1280px) {
-    section.clients {
+    .clients {
         width: 1280px;
         margin: 0 auto;
     }

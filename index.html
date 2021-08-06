@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- metadatos -->
+    <!-- metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corporate</title>
@@ -11,9 +11,7 @@
     <meta name="keywords" content="" />
     <meta name="copyright" content="Eduardo de la Cruz Palacios" />
     <meta name="robots" content="index, follow" />
-    <!-- CANONICAL LINK -->
-    <link rel="canonical" href="https://www.educp92.000webhostapp.com/corporate/">
-    <!-- estilos -->
+    <!-- css -->
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/nav.css">
@@ -26,15 +24,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
-    <!-- Google Fonts IBM Plex Sans -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif&display=swap"
         rel="stylesheet">
-    <!-- Google Fonts IBM Plex Serif -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
 </head>
 
-<body onload="typing()" onload="setInterval(createIcon, 300)" id="home">
+<body onload="Typing()" onload="setInterval(CreateIcon, 300)" id="home">
 
     <header>
         <!-- video source: https://www.pexels.com/video/digital-projection-of-the-earth-mass-in-blue-lights-3129957/ -->
@@ -47,23 +45,23 @@
         </a>
     </header>
 
-    <i class="fas fa-bars fa-3x" onclick="openNav()"></i>
+    <i class="fas fa-bars fa-3x" onclick="OpenNav()"></i>
 
     <nav class="overlay" id="myNav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="CloseNav()">&times;</a>
         <ul class="overlay-content">
 
-            <li><a href="#home" onclick="closeNav()">Home</a></li>
+            <li><a href="#home" onclick="CloseNav()">Home</a></li>
 
-            <li><a href="#figures" onclick="closeNav()">Figures</a></li>
+            <li><a href="#figures" onclick="CloseNav()">Figures</a></li>
 
-            <li><a href="#services" onclick="closeNav()">Services</a></li>
+            <li><a href="#services" onclick="CloseNav()">Services</a></li>
 
-            <li><a href="#work" onclick="closeNav()">How do we work?</a></li>
+            <li><a href="#work" onclick="CloseNav()">How do we work?</a></li>
 
-            <li><a href="#clients" onclick="closeNav()">Clients</a></li>
+            <li><a href="#clients" onclick="CloseNav()">Clients</a></li>
 
-            <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+            <li><a href="#contact" onclick="CloseNav()">Contact</a></li>
 
         </ul>
     </nav>
@@ -74,25 +72,25 @@
 
             <h2>Wanna see our figures?</h2>
 
-            <div class="box" id="lluvia">
+            <div class="box" id="rainContainer">
                 <i class="fas fa-space-shuttle"></i>
 
-                <div class="arribaizquierda">
+                <div class="upleft">
                     <i class="fas fa-dollar-sign"></i>
                     <p>27.4 billion done</p>
                 </div>
 
-                <div class="arribaderecha">
+                <div class="upright">
                     <i class="fas fa-users"></i>
                     <p>+10k clients</p>
                 </div>
 
-                <div class="abajoizquierda">
+                <div class="downleft">
                     <i class="fas fa-lock"></i>
                     <p>Privacy is a must</p>
                 </div>
 
-                <div class="abajoderecha">
+                <div class="downright">
                     <i class="fas fa-check"></i>
                     <p>Deadlines always met</p>
                 </div>
@@ -113,7 +111,7 @@
                 <h3>Cutting-edge technology improving processes</h3>
                 <div class="flex">
                     <!-- img source: https://www.pexels.com/photo/blue-white-and-green-building-illustration-4549831/ -->
-                    <img src="img/pexels-lucky-cungwa-4549831.jpg" alt="">
+                    <img src="img/services1.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
                         dolor quis ea id, aut enim cum, fuga asperiores facilis deleniti
                         quas.
@@ -136,7 +134,7 @@
                 <h3>Paying attention to detail is essential</h3>
                 <div class="flex">
                     <!-- img source: https://www.pexels.com/photo/aerial-air-air-force-aircraft-392024/ -->
-                    <img src="img/pexels-david-mcbee-392024.jpg" alt="" class="derecha">
+                    <img src="img/services2.jpg" alt="" class="right">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste hic dolorem eum eveniet
                         dolor quis ea id, aut enim cum, fuga asperiores facilis deleniti
                         quas.</p>
@@ -152,7 +150,7 @@
 
             <h2>Clients</h2>
 
-            <div class="logos">
+            <div class="icons">
                 <i class="fas fa-gem"></i>
                 <i class="fas fa-fire"></i>
                 <i class="fas fa-hammer"></i>
@@ -266,8 +264,7 @@
         <h3>Company's name <i class="fas fa-copyright"></i> 2021</h3>
 
     </footer>
-    <!-- JavaScript -->
-    <script src="main.js"></script>
+    
 </body>
 
 </html>

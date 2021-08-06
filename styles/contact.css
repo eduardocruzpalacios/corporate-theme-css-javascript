@@ -1,130 +1,131 @@
-section.contact {
+.contact {
     padding: 2.5vh;
-    background-color: var(--blanco);
+    background-color: var(--white);
 }
 
-section.contact h2 {
+.contact h2 {
     text-align: center;
-    color: var(--gris);
+    color: var(--grey);
     margin-bottom: 2.5vh;
 }
 
-section.contact ul {
+.contact ul {
     list-style-type: none;
 }
 
-section.contact div.content {
+.contact .content {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    box-shadow: 0 0 10px 0 var(--negro);
+    box-shadow: 0 0 10px 0 var(--black);
 }
 
-section.contact div.content div.contact-form {
+.contact .contact-form {
     grid-column: 1 / span 5;
     padding: 1rem;
-    background-color: var(--lila);
-    color: var(--blanco);
+    background-color: var(--purple);
+    color: var(--white);
 }
 
-section.contact div.content div.contact-form form {
+.contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-section.contact div.content div.contact-form form p {
+.contact p {
     padding: 0.75rem;
 }
 
-section.contact div.content div.contact-form form p label {
+.contact label {
     display: block;
     margin-bottom: 0.5rem;
 }
 
-section.contact div.content div.contact-form form p input,
-section.contact div.content div.contact-form form p textarea,
-section.contact div.content div.contact-form form p button {
+.contact input,
+.contact textarea,
+.contact button {
     width: 100%;
 }
 
-section.contact div.content div.contact-form form p input,
-section.contact div.content div.contact-form form p textarea {
+.contact input,
+.contact textarea {
     background-color: transparent;
-    color: var(--blanco);
+    color: var(--white);
     border: 2px solid transparent;
-    border-bottom: 2px solid var(--gris);
+    border-bottom: 2px solid var(--grey);
     outline: none;
     padding: 0.5rem;
 }
 
-section.contact div.content div.contact-form form p input:focus,
-section.contact div.content div.contact-form form p textarea:focus {
-    background-color: var(--gris);
-    color: var(--blanco);
-    border: 2px solid var(--blanco);
+.contact input:focus,
+.contact textarea:focus {
+    background-color: var(--grey);
+    color: var(--white);
+    border: 2px solid var(--white);
 }
 
-section.contact div.content div.contact-form form p button {
+.contact button {
     border-radius: 12px;
     border: 2px transparent solid;
     padding: 0.5rem;
-    color: var(--gris);
+    color: var(--grey);
+    cursor: pointer;
 }
 
-section.contact div.content div.contact-form form p button:hover {
-    border: 2px var(--blanco) solid;
-    background-color: var(--gris);
-    color: var(--blanco);
+.contact button:hover {
+    border: 2px var(--white) solid;
+    background-color: var(--grey);
+    color: var(--white);
     transition: color 1s ease-in-out, background-color 1s ease-in-out;
 }
 
-section.contact div.content div.contact-form form p.block {
+.contact p.block {
     grid-column: 1 / 3;
 }
 
-section.contact div.content div.contact-info {
+.contact .contact-info {
     grid-column: 1 / span 5;
     padding: 1rem;
-    background-color: var(--azul);
-    color: var(--gris);
+    background-color: var(--blue);
+    color: var(--grey);
 }
 
-section.contact div.content div.contact-info h3 {
+.contact .contact-info h3 {
     text-align: center;
 }
 
-section.contact div.content div.contact-info p {
+.contact .contact-info p {
     margin-top: 1rem;
 }
 
-section.contact div.content div.contact-info li {
+.contact .contact-info li {
     margin-top: 1rem;
 }
 
 /* MQ TABLET & PC */
 
 @media (min-width: 700px) {
-    section.contact {
+    .contact {
         padding: 15vh;
     }
 
-    section.contact h2 {
+    .contact h2 {
         margin-bottom: 5vh;
     }
 
-    section.contact div.content div.contact-form {
+    .contact .contact-form {
         grid-column: 1 / 4;
     }
 
-    section.contact div.content div.contact-info {
+    .contact .contact-info {
         grid-column: 4 / 6;
     }
 
-    section.contact div.content div.contact-info p {
+    .contact .contact-info p {
         margin-top: 1rem;
         font-size: .8rem;
     }
 
-    section.contact div.content div.contact-info li {
+    .contact .contact-info li {
         margin-top: 1rem;
         font-size: .8rem;
     }
@@ -134,24 +135,24 @@ section.contact div.content div.contact-info li {
 
 @media (min-width: 993px) {
 
-    section.contact div.content div.contact-form form p,
-    section.contact input,
-    section.contact textarea,
-    section.contact button {
+    .contact p,
+    .contact input,
+    .contact textarea,
+    .contact button {
         font-size: 1.125rem;
     }
 
-    section.contact div.content div.contact-info p {
+    .contact .contact-info p {
         font-size: 1.125rem;
     }
 
-    section.contact div.content div.contact-info li {
+    .contact .contact-info li {
         font-size: 1.125rem;
     }
 }
 
 @media (min-width: 1280px) {
-    section.contact {
+    .contact {
         width: 1280px;
         margin: 0 auto;
     }

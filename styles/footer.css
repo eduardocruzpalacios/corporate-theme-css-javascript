@@ -1,17 +1,17 @@
 footer {
-    background-color: var(--gris);
-    color: var(--blanco);
+    background-color: var(--grey);
+    color: var(--white);
     padding-top: 40px;
 }
 
 footer a {
-    color: var(--lila);
+    color: var(--purple);
     text-decoration: none;
     font-size: 0.80rem;
 }
 
 footer a:hover {
-    color: var(--azul);
+    color: var(--blue);
     font-size: 1rem;
     transition: font-size 1s;
 }
@@ -21,18 +21,18 @@ footer p {
     letter-spacing: 1.5px;
 }
 
-footer div.links-container {
+footer .links-container {
     display: grid;
     grid-template-columns: auto;
     justify-content: space-evenly;
     grid-gap: 40px;
 }
 
-footer div.links-container div ul {
+footer ul {
     list-style-type: none;
 }
 
-footer div.links-container div ul li {
+footer li {
     margin-top: 15px;
     text-align: center;
 }
@@ -46,7 +46,7 @@ footer h3 {
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    footer div.links-container {
+    footer .links-container {
         grid-template-columns: auto auto;
     }
 }
@@ -54,7 +54,7 @@ footer h3 {
 /* MQ PC */
 
 @media (min-width: 993px) {
-    footer div.links-container {
+    footer .links-container {
         grid-template-columns: auto auto auto auto;
     }
 }

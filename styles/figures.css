@@ -1,20 +1,20 @@
-section.figures {
+.figures {
     height: 100vh;
     padding: 5vh;
-    background-color: var(--blanco);
+    background-color: var(--white);
 }
 
-section.figures div.container {
+.figures .container {
     height: 100%;
     position: relative;
 }
 
-section.figures div.container h2 {
+.figures h2 {
     text-align: center;
     color: var(--gris);
 }
 
-section.figures div.container div.box {
+.figures .container .box {
     position: absolute;
     bottom: 1.5%;
     height: 75vh;
@@ -28,10 +28,9 @@ section.figures div.container div.box {
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 }
 
-/* nave espacial */
-
-section.figures div.container div.box i.fa-space-shuttle {
-    color: var(--blanco);
+/* spaceship */
+.figures .fa-space-shuttle {
+    color: var(--white);
     font-size: 3rem;
     position: relative;
     top: 10%;
@@ -40,13 +39,13 @@ section.figures div.container div.box i.fa-space-shuttle {
     z-index: 10;
 }
 
-/* cajas figures */
+/* figures boxes */
 
-section.figures div.container div.box div {
-    border: 2px solid var(--azul);
+.figures .container .box div {
+    border: 2px solid var(--blue);
     width: 84px;
     height: 84px;
-    color: var(--azul);
+    color: var(--blue);
     text-align: center;
     position: absolute;
     padding: 0.0625rem;
@@ -56,35 +55,35 @@ section.figures div.container div.box div {
     align-items: center;
 }
 
-section.figures div.container div.box div.arribaizquierda {
+.figures .container .box .upleft {
     top: 20%;
     left: 15%;
 }
 
-section.figures div.container div.box div.arribaderecha {
+.figures .container .box .upright {
     top: 20%;
     right: 15%;
 }
 
-section.figures div.container div.box div.abajoizquierda {
+.figures .container .box .downleft {
     bottom: 20%;
     left: 15%;
 }
 
-section.figures div.container div.box div.abajoderecha {
+.figures .container .box .downright {
     bottom: 20%;
     right: 15%;
 }
 
-section.figures div.container div.box div i {
+.figures i {
     font-size: 0.7rem;
 }
 
-section.figures div.container div.box div p {
+.figures p {
     font-size: 0.7rem;
 }
 
-/* animaciones */
+/* animations */
 
 @keyframes nave {
     from {
@@ -119,7 +118,7 @@ section.figures div.container div.box div p {
 }
 
 /* rain */
-img[src="star.svg"] {
+img[src="../icons/star.svg"] {
     position: fixed;
     top: -1vh;
     font-size: 2rem;
@@ -138,38 +137,38 @@ img[src="star.svg"] {
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    section.figures div.container div.box div {
-        border: 3px solid var(--azul);
+    .figures .container .box div {
+        border: 3px solid var(--blue);
         width: 132px;
         height: 132px;
         padding: 0.25rem;
     }
 
-    section.figures div.container div.box div i {
+    .figures i {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
 
-    section.figures div.container div.box div p {
+    .figures p {
         font-size: 1rem;
     }
 
-    section.figures div.container div.box div.arribaizquierda {
+    .figures .container .box .upleft {
         top: 15%;
         left: 15%;
     }
 
-    section.figures div.container div.box div.arribaderecha {
+    .figures .container .box .upright {
         top: 15%;
         right: 15%;
     }
 
-    section.figures div.container div.box div.abajoizquierda {
+    .figures .container .box .downleft {
         bottom: 15%;
         left: 15%;
     }
 
-    section.figures div.container div.box div.abajoderecha {
+    .figures .container .box .downright {
         bottom: 15%;
         right: 15%;
     }
@@ -178,45 +177,45 @@ img[src="star.svg"] {
 /* MQ PC */
 
 @media (min-width: 993px) {
-    section.figures div.container div.box div {
-        border: 3px solid var(--azul);
+    .figures .container .box div {
+        border: 3px solid var(--blue);
         width: 132px;
         height: 132px;
         padding: 0.5rem;
     }
 
-    section.figures div.container div.box div i {
+    .figures i {
         font-size: 2rem;
         margin-bottom: 1.25rem;
     }
 
-    section.figures div.container div.box div p {
+    .figures p {
         font-size: 1rem;
     }
 
-    section.figures div.container div.box div.arribaizquierda {
+    .figures .container .box .upleft {
         top: 15%;
         left: 25%;
     }
 
-    section.figures div.container div.box div.arribaderecha {
+    .figures .container .box .upright {
         top: 15%;
         right: 25%;
     }
 
-    section.figures div.container div.box div.abajoizquierda {
+    .figures .container .box .downleft {
         bottom: 15%;
         left: 25%;
     }
 
-    section.figures div.container div.box div.abajoderecha {
+    .figures .container .box .downright {
         bottom: 15%;
         right: 25%;
     }
 }
 
 @media (min-width: 1280px) {
-    section.figures {
+    .figures {
         width: 1280px;
         margin: 0 auto;
     }

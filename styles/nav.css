@@ -1,14 +1,14 @@
-/* icono abre nav */
-body i.fas.fa-bars.fa-3x {
+/* icon that opens the nav */
+body .fas.fa-bars.fa-3x {
     position: fixed;
     top: 5%;
     right: 5%;
-    color: var(--negro);
+    color: var(--black);
     z-index: 10;
     cursor: pointer;
 }
 
-/* la capa del nav */
+/* nav lay */
 nav.overlay {
     height: 100%;
     width: 0;
@@ -22,7 +22,7 @@ nav.overlay {
     transition: 0.5s;
 }
 
-/* el contenido de la capa del nav*/
+/* nav lay content */
 nav ul.overlay-content {
     position: relative;
     top: 25%;
@@ -43,10 +43,10 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--blanco);
+    color: var(--white);
 }
 
-/* el botón que cierra el nav */
+/* button that close the nav */
 .overlay .closebtn {
     position: absolute;
     top: 20px;

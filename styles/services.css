@@ -1,79 +1,79 @@
-section.services {
-    background-color: var(--gris);
+.services {
+    background-color: var(--grey);
     padding: 2.5vh;
-    border-bottom: 2px solid var(--blanco);
+    border-bottom: 2px solid var(--white);
 }
 
-section.services div.container h2 {
+.services h2 {
     text-align: center;
-    color: var(--blanco);
+    color: var(--white);
     margin-bottom: 2.5vh;
 }
 
-section.services div.container div {
-    background-color: var(--blanco);
+.services .container div {
+    background-color: var(--white);
     border-radius: 12px;
     padding: .9rem;
 }
 
-section.services div.container div h3 {
+.services h3 {
     text-align: center;
-    color: var(--lila);
+    color: var(--purple);
     margin-bottom: .9rem;
 }
 
-section.services div.container div div.flex {
+.services .container div .flex {
     overflow: hidden;
     padding: 0;
 }
 
-section.services div.container div div.flex img {
+.services img {
     float: left;
     width: 50%;
     border-radius: 12px;
     padding: .5rem;
 }
 
-section.services div.container div div.flex img.derecha {
+.services img.right {
     float: right;
 }
 
-section.services div div.flex img:hover {
+.services img:hover {
     opacity: 0.5;
 }
 
-section.services div.container div div.flex p {
-    color: var(--gris);
+.services p {
+    color: var(--grey);
     padding: .5rem;
 }
 
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    section.services {
+    .services {
         padding: 10vh;
     }
 
-    section.services div.container h2 {
+    .services h2 {
         margin-bottom: 10vh;
     }
 
-    section.services div.container div h3 {
+    .services h3 {
         margin-bottom: 1.5rem;
     }
 
-    section.services div.container div div.flex {
+    .services .container div .flex {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
     }
 
-    section.services div.container div div.flex img {
+    .services img {
         width: 50%;
     }
 
-    section.services div.container div div.flex p {
+    .services p {
         font-size: 24px;
     }
 }
@@ -81,37 +81,37 @@ section.services div.container div div.flex p {
 /* MQ PC */
 
 @media (min-width: 993px) {
-    section.services {
+    .services {
         padding: 15vh;
     }
 
-    section.services div.container h2 {
+    .services h2 {
         margin-bottom: 15vh;
     }
 
-    section.services div.container div h3 {
+    .services h3 {
         margin-bottom: 2rem;
     }
 
-    section.services div.container div div.flex {
+    .services .container div .flex {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
     }
 
-    section.services div.container div div.flex p {
+    .services p {
         font-size: 32px;
     }
 }
 
 @media (min-width: 1280px) {
-    section.services {
+    .services {
         width: 1280px;
         margin: 0 auto;
     }
 
-    section.services div.container div div.flex p {
+    .services p {
         font-size: 32px;
     }
 }

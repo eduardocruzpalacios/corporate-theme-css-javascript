@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     line-height: 1;
-    /* ajusta alto líneas ayudando geometría de espacios */
     font-stretch: normal;
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -21,30 +20,30 @@ h3 {
     letter-spacing: 2px;
 }
 
-/* colores */
+/* colours */
 :root {
-    --blanco: #fff;
-    --negro: #000;
-    --azul: #C7E8F3;
-    --lila: #BF9ACA;
-    --gris: #41393E;
+    --white: #fff;
+    --black: #000;
+    --blue: #C7E8F3;
+    --purple: #BF9ACA;
+    --grey: #41393E;
 }
 
 /* scroll bar style source: https://css-tricks.com/ */
 
-/* para Mozilla Firefox*/
+/* Mozilla Firefox */
 
 html {
     scrollbar-color: #666 #201c29;
 }
 
-/* ancho */
+/*  */
 ::-webkit-scrollbar {
     width: 16px;
     height: 16px;
 }
 
-/* color de (track) barra por donde se desliza el handle */
+/* track colour */
 ::-webkit-scrollbar-track {
     background: linear-gradient(90deg, #434343, #434343 1px, #111 0, #111);
 }
@@ -56,15 +55,7 @@ html {
     box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
 }
 
-/* handle en hover */
+/* handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     opacity: 0.5;
 }
-
-/* MQ TABLET */
-
-@media (min-width: 650px) and (max-width: 992px) {}
-
-/* MQ PC */
-
-@media (min-width: 993px) {}
