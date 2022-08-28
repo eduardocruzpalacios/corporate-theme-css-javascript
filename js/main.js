@@ -16,7 +16,7 @@ function Typing() {
 
 function CreateIcon() {
   const box = document.createElement('img');
-  box.setAttribute('src', '../icons/star.svg');
+  box.setAttribute('src', './icons/star.svg');
   box.style.position = 'absolute';
   box.style.left = Math.random() * 98 + '%';
   box.style.animationDuration = Math.random() * 2 + 3 + 's';

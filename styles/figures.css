@@ -32,7 +32,7 @@
 .figures .fa-space-shuttle {
   animation: nave 3s infinite alternate linear, nave_x 4s infinite alternate;
   color: var(--white);
-  font-size: 3rem;
+  font-size: 3rem!;
   left: 40px;
   position: relative;
   top: 10%;
@@ -118,7 +118,7 @@
 }
 
 /* rain */
-img[src='../icons/star.svg'] {
+img[src='./icons/star.svg'] {
   animation: fall 3s linear forwards;
   font-size: 2rem;
   height: 12px;
