@@ -1,159 +1,158 @@
 .contact {
-    padding: 2.5vh;
-    background-color: var(--white);
+  background-color: var(--white);
+  padding: 2.5vh;
 }
 
 .contact h2 {
-    text-align: center;
-    color: var(--grey);
-    margin-bottom: 2.5vh;
+  color: var(--grey);
+  margin-bottom: 2.5vh;
+  text-align: center;
 }
 
 .contact ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .contact .content {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    box-shadow: 0 0 10px 0 var(--black);
+  box-shadow: 0 0 10px 0 var(--black);
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .contact .contact-form {
-    grid-column: 1 / span 5;
-    padding: 1rem;
-    background-color: var(--purple);
-    color: var(--white);
+  background-color: var(--purple);
+  color: var(--white);
+  grid-column: 1 / span 5;
+  padding: 1rem;
 }
 
 .contact form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .contact p {
-    padding: 0.75rem;
+  padding: 0.75rem;
 }
 
 .contact label {
-    display: block;
-    margin-bottom: 0.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .contact input,
 .contact textarea,
 .contact button {
-    width: 100%;
+  width: 100%;
 }
 
 .contact input,
 .contact textarea {
-    background-color: transparent;
-    color: var(--white);
-    border: 2px solid transparent;
-    border-bottom: 2px solid var(--grey);
-    outline: none;
-    padding: 0.5rem;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-bottom: 2px solid var(--grey);
+  color: var(--white);
+  outline: none;
+  padding: 0.5rem;
 }
 
 .contact input:focus,
 .contact textarea:focus {
-    background-color: var(--grey);
-    color: var(--white);
-    border: 2px solid var(--white);
+  background-color: var(--grey);
+  border: 2px solid var(--white);
+  color: var(--white);
 }
 
 .contact button {
-    border-radius: 12px;
-    border: 2px transparent solid;
-    padding: 0.5rem;
-    color: var(--grey);
-    cursor: pointer;
+  border: 2px transparent solid;
+  border-radius: 12px;
+  color: var(--grey);
+  cursor: pointer;
+  padding: 0.5rem;
 }
 
 .contact button:hover {
-    border: 2px var(--white) solid;
-    background-color: var(--grey);
-    color: var(--white);
-    transition: color 1s ease-in-out, background-color 1s ease-in-out;
+  background-color: var(--grey);
+  border: 2px var(--white) solid;
+  color: var(--white);
+  transition: color 1s ease-in-out, background-color 1s ease-in-out;
 }
 
 .contact p.block {
-    grid-column: 1 / 3;
+  grid-column: 1 / 3;
 }
 
 .contact .contact-info {
-    grid-column: 1 / span 5;
-    padding: 1rem;
-    background-color: var(--blue);
-    color: var(--grey);
+  background-color: var(--blue);
+  color: var(--grey);
+  grid-column: 1 / span 5;
+  padding: 1rem;
 }
 
 .contact .contact-info h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .contact .contact-info p {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .contact .contact-info li {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 /* MQ TABLET & PC */
 
 @media (min-width: 700px) {
-    .contact {
-        padding: 15vh;
-    }
+  .contact {
+    padding: 15vh;
+  }
 
-    .contact h2 {
-        margin-bottom: 5vh;
-    }
+  .contact h2 {
+    margin-bottom: 5vh;
+  }
 
-    .contact .contact-form {
-        grid-column: 1 / 4;
-    }
+  .contact .contact-form {
+    grid-column: 1 / 4;
+  }
 
-    .contact .contact-info {
-        grid-column: 4 / 6;
-    }
+  .contact .contact-info {
+    grid-column: 4 / 6;
+  }
 
-    .contact .contact-info p {
-        margin-top: 1rem;
-        font-size: .8rem;
-    }
+  .contact .contact-info p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
 
-    .contact .contact-info li {
-        margin-top: 1rem;
-        font-size: .8rem;
-    }
+  .contact .contact-info li {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
 }
 
 /* MQ PC */
 
 @media (min-width: 993px) {
+  .contact p,
+  .contact input,
+  .contact textarea,
+  .contact button {
+    font-size: 1.125rem;
+  }
 
-    .contact p,
-    .contact input,
-    .contact textarea,
-    .contact button {
-        font-size: 1.125rem;
-    }
+  .contact .contact-info p {
+    font-size: 1.125rem;
+  }
 
-    .contact .contact-info p {
-        font-size: 1.125rem;
-    }
-
-    .contact .contact-info li {
-        font-size: 1.125rem;
-    }
+  .contact .contact-info li {
+    font-size: 1.125rem;
+  }
 }
 
 @media (min-width: 1280px) {
-    .contact {
-        width: 1280px;
-        margin: 0 auto;
-    }
+  .contact {
+    margin: 0 auto;
+    width: 1280px;
+  }
 }

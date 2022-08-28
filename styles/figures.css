@@ -1,222 +1,222 @@
 .figures {
-    height: 100vh;
-    padding: 5vh;
-    background-color: var(--white);
+  background-color: var(--white);
+  height: 100vh;
+  padding: 5vh;
 }
 
 .figures .container {
-    height: 100%;
-    position: relative;
+  height: 100%;
+  position: relative;
 }
 
 .figures h2 {
-    text-align: center;
-    color: var(--gris);
+  color: var(--gris);
+  text-align: center;
 }
 
 .figures .container .box {
-    position: absolute;
-    bottom: 1.5%;
-    height: 75vh;
-    width: 100%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-radius: 12px;
-    /* https://www.eggradients.com/ name: Calm Celebration*/
-    background-color: #537895;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+  /* https://www.eggradients.com/ name: Calm Celebration*/
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+  border-radius: 12px;
+  bottom: 1.5%;
+  height: 75vh;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 100%;
 }
 
 /* spaceship */
 .figures .fa-space-shuttle {
-    color: var(--white);
-    font-size: 3rem;
-    position: relative;
-    top: 10%;
-    left: 40px;
-    animation: nave 3s infinite alternate linear, nave_x 4s infinite alternate;
-    z-index: 10;
+  animation: nave 3s infinite alternate linear, nave_x 4s infinite alternate;
+  color: var(--white);
+  font-size: 3rem;
+  left: 40px;
+  position: relative;
+  top: 10%;
+  z-index: 10;
 }
 
 /* figures boxes */
 
 .figures .container .box div {
-    border: 2px solid var(--blue);
-    width: 84px;
-    height: 84px;
-    color: var(--blue);
-    text-align: center;
-    position: absolute;
-    padding: 0.0625rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  align-items: center;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  height: 84px;
+  justify-content: space-evenly;
+  padding: 0.0625rem;
+  position: absolute;
+  text-align: center;
+  width: 84px;
 }
 
 .figures .container .box .upleft {
-    top: 20%;
-    left: 15%;
+  left: 15%;
+  top: 20%;
 }
 
 .figures .container .box .upright {
-    top: 20%;
-    right: 15%;
+  right: 15%;
+  top: 20%;
 }
 
 .figures .container .box .downleft {
-    bottom: 20%;
-    left: 15%;
+  bottom: 20%;
+  left: 15%;
 }
 
 .figures .container .box .downright {
-    bottom: 20%;
-    right: 15%;
+  bottom: 20%;
+  right: 15%;
 }
 
 .figures i {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 .figures p {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 /* animations */
 
 @keyframes nave {
-    from {
-        top: 20%;
-    }
+  from {
+    top: 20%;
+  }
 
-    to {
-        top: 80%;
-    }
+  to {
+    top: 80%;
+  }
 }
 
 @keyframes nave_x {
-    0% {
-        left: 20px;
-    }
+  0% {
+    left: 20px;
+  }
 
-    25% {
-        left: 30%
-    }
+  25% {
+    left: 30%;
+  }
 
-    50% {
-        left: 55%
-    }
+  50% {
+    left: 55%;
+  }
 
-    75% {
-        left: 15%
-    }
+  75% {
+    left: 15%;
+  }
 
-    90% {
-        left: 25%
-    }
+  90% {
+    left: 25%;
+  }
 }
 
 /* rain */
-img[src="../icons/star.svg"] {
-    position: fixed;
-    top: -1vh;
-    font-size: 2rem;
-    transform: translateY(0);
-    animation: fall 3s linear forwards;
-    width: 12px;
-    height: 12px;
+img[src='../icons/star.svg'] {
+  animation: fall 3s linear forwards;
+  font-size: 2rem;
+  height: 12px;
+  position: fixed;
+  top: -1vh;
+  transform: translateY(0);
+  width: 12px;
 }
 
 @keyframes fall {
-    to {
-        transform: translateY(105vh);
-    }
+  to {
+    transform: translateY(105vh);
+  }
 }
 
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    .figures .container .box div {
-        border: 3px solid var(--blue);
-        width: 132px;
-        height: 132px;
-        padding: 0.25rem;
-    }
+  .figures .container .box div {
+    border: 3px solid var(--blue);
+    height: 132px;
+    padding: 0.25rem;
+    width: 132px;
+  }
 
-    .figures i {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
+  .figures i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 
-    .figures p {
-        font-size: 1rem;
-    }
+  .figures p {
+    font-size: 1rem;
+  }
 
-    .figures .container .box .upleft {
-        top: 15%;
-        left: 15%;
-    }
+  .figures .container .box .upleft {
+    left: 15%;
+    top: 15%;
+  }
 
-    .figures .container .box .upright {
-        top: 15%;
-        right: 15%;
-    }
+  .figures .container .box .upright {
+    right: 15%;
+    top: 15%;
+  }
 
-    .figures .container .box .downleft {
-        bottom: 15%;
-        left: 15%;
-    }
+  .figures .container .box .downleft {
+    bottom: 15%;
+    left: 15%;
+  }
 
-    .figures .container .box .downright {
-        bottom: 15%;
-        right: 15%;
-    }
+  .figures .container .box .downright {
+    bottom: 15%;
+    right: 15%;
+  }
 }
 
 /* MQ PC */
 
 @media (min-width: 993px) {
-    .figures .container .box div {
-        border: 3px solid var(--blue);
-        width: 132px;
-        height: 132px;
-        padding: 0.5rem;
-    }
+  .figures .container .box div {
+    border: 3px solid var(--blue);
+    height: 132px;
+    padding: 0.5rem;
+    width: 132px;
+  }
 
-    .figures i {
-        font-size: 2rem;
-        margin-bottom: 1.25rem;
-    }
+  .figures i {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
 
-    .figures p {
-        font-size: 1rem;
-    }
+  .figures p {
+    font-size: 1rem;
+  }
 
-    .figures .container .box .upleft {
-        top: 15%;
-        left: 25%;
-    }
+  .figures .container .box .upleft {
+    left: 25%;
+    top: 15%;
+  }
 
-    .figures .container .box .upright {
-        top: 15%;
-        right: 25%;
-    }
+  .figures .container .box .upright {
+    right: 25%;
+    top: 15%;
+  }
 
-    .figures .container .box .downleft {
-        bottom: 15%;
-        left: 25%;
-    }
+  .figures .container .box .downleft {
+    bottom: 15%;
+    left: 25%;
+  }
 
-    .figures .container .box .downright {
-        bottom: 15%;
-        right: 25%;
-    }
+  .figures .container .box .downright {
+    bottom: 15%;
+    right: 25%;
+  }
 }
 
 @media (min-width: 1280px) {
-    .figures {
-        width: 1280px;
-        margin: 0 auto;
-    }
+  .figures {
+    margin: 0 auto;
+    width: 1280px;
+  }
 }

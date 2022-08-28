@@ -1,59 +1,59 @@
 .clients {
-    height: 50vh;
-    padding: 2.5vh;
-    border-bottom: 2px solid var(--grey);
-    background-color: var(--white);
+  background-color: var(--white);
+  border-bottom: 2px solid var(--grey);
+  height: 50vh;
+  padding: 2.5vh;
 }
 
 .clients .container {
-    height: 100%;
-    position: relative;
+  height: 100%;
+  position: relative;
 }
 
 .clients h2 {
-    text-align: center;
-    color: var(--grey);
+  color: var(--grey);
+  text-align: center;
 }
 
 .clients .icons {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .clients i {
-    font-size: 2.5rem;
-    color: var(--purple);
-    cursor: pointer;
+  color: var(--purple);
+  cursor: pointer;
+  font-size: 2.5rem;
 }
 
 .clients i:hover {
-    color: var(--blue);
-    transition: color 1s ease-in-out;
+  color: var(--blue);
+  transition: color 1s ease-in-out;
 }
 
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    .clients i {
-        font-size: 3.5rem;
-    }
+  .clients i {
+    font-size: 3.5rem;
+  }
 }
 
 /* MQ PC */
 
 @media (min-width: 993px) {
-    .clients i {
-        font-size: 5rem;
-    }
+  .clients i {
+    font-size: 5rem;
+  }
 }
 
 @media (min-width: 1280px) {
-    .clients {
-        width: 1280px;
-        margin: 0 auto;
-    }
+  .clients {
+    margin: 0 auto;
+    width: 1280px;
+  }
 }

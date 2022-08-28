@@ -1,55 +1,55 @@
 /* icon that opens the nav */
 body .fas.fa-bars.fa-3x {
-    position: fixed;
-    top: 5%;
-    right: 5%;
-    color: var(--black);
-    z-index: 10;
-    cursor: pointer;
+  color: var(--black);
+  cursor: pointer;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  z-index: 10;
 }
 
 /* nav lay */
 nav.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  width: 0;
+  z-index: 100;
 }
 
 /* nav lay content */
 nav ul.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 1.5rem;
-    list-style-type: none;
+  font-size: 1.5rem;
+  list-style-type: none;
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+  top: 25%;
+  width: 100%;
 }
 
 nav ul li {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 
 nav a {
-    text-decoration: none;
-    color: #818181;
+  color: #818181;
+  text-decoration: none;
 }
 
 nav a:hover {
-    color: var(--white);
+  color: var(--white);
 }
 
 /* button that close the nav */
 .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 5rem;
+  font-size: 5rem;
+  position: absolute;
+  right: 45px;
+  top: 20px;
 }

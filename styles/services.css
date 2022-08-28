@@ -1,117 +1,117 @@
 .services {
-    background-color: var(--grey);
-    padding: 2.5vh;
-    border-bottom: 2px solid var(--white);
+  background-color: var(--grey);
+  border-bottom: 2px solid var(--white);
+  padding: 2.5vh;
 }
 
 .services h2 {
-    text-align: center;
-    color: var(--white);
-    margin-bottom: 2.5vh;
+  color: var(--white);
+  margin-bottom: 2.5vh;
+  text-align: center;
 }
 
 .services .container div {
-    background-color: var(--white);
-    border-radius: 12px;
-    padding: .9rem;
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 0.9rem;
 }
 
 .services h3 {
-    text-align: center;
-    color: var(--purple);
-    margin-bottom: .9rem;
+  color: var(--purple);
+  margin-bottom: 0.9rem;
+  text-align: center;
 }
 
 .services .container div .flex {
-    overflow: hidden;
-    padding: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 .services img {
-    float: left;
-    width: 50%;
-    border-radius: 12px;
-    padding: .5rem;
+  border-radius: 12px;
+  float: left;
+  padding: 0.5rem;
+  width: 50%;
 }
 
 .services img.right {
-    float: right;
+  float: right;
 }
 
 .services img:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .services p {
-    color: var(--grey);
-    padding: .5rem;
+  color: var(--grey);
+  padding: 0.5rem;
 }
 
 /* MQ TABLET */
 
 @media (min-width: 650px) and (max-width: 992px) {
-    .services {
-        padding: 10vh;
-    }
+  .services {
+    padding: 10vh;
+  }
 
-    .services h2 {
-        margin-bottom: 10vh;
-    }
+  .services h2 {
+    margin-bottom: 10vh;
+  }
 
-    .services h3 {
-        margin-bottom: 1.5rem;
-    }
+  .services h3 {
+    margin-bottom: 1.5rem;
+  }
 
-    .services .container div .flex {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+  .services .container div .flex {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-    .services img {
-        width: 50%;
-    }
+  .services img {
+    width: 50%;
+  }
 
-    .services p {
-        font-size: 24px;
-    }
+  .services p {
+    font-size: 24px;
+  }
 }
 
 /* MQ PC */
 
 @media (min-width: 993px) {
-    .services {
-        padding: 15vh;
-    }
+  .services {
+    padding: 15vh;
+  }
 
-    .services h2 {
-        margin-bottom: 15vh;
-    }
+  .services h2 {
+    margin-bottom: 15vh;
+  }
 
-    .services h3 {
-        margin-bottom: 2rem;
-    }
+  .services h3 {
+    margin-bottom: 2rem;
+  }
 
-    .services .container div .flex {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+  .services .container div .flex {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-    .services p {
-        font-size: 32px;
-    }
+  .services p {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 1280px) {
-    .services {
-        width: 1280px;
-        margin: 0 auto;
-    }
+  .services {
+    margin: 0 auto;
+    width: 1280px;
+  }
 
-    .services p {
-        font-size: 32px;
-    }
+  .services p {
+    font-size: 32px;
+  }
 }
